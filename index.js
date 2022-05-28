@@ -82,7 +82,7 @@ function addDepartment() {
         ])
         .then((response) => {
             const sql = `INSERT INTO departments (name)
-            VALUES ("${response.addDepartment}");`;
+            VALUES ("${response.name}");`;
             connection.query(sql, (err, res) => {
                 if (err) throw err;
                 console.table(res);

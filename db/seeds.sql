@@ -23,7 +23,8 @@ VALUES
   ('Frank', 'Senatra', 3, 2),
   ('Kelly', 'Slater', 5, 1),
   ('Joe', 'Kelly', 2, NULL),
+  ('Elon', 'Musk', 2, 2),
   ('Jack', 'Johnson', 4, 1),
   ('Billy', 'Joel', 5, 1),
-  ('Tom', 'Petty', 3, NULL),
-  ('Eric', 'Clapton', 2, 2);
+  ('Tom', 'Petty', 3, NULL);
+  
